@@ -1,11 +1,11 @@
-# Laravel Docs Extension for Albert
+# TailwindCSS Docs Extension for Albert
 
-[Albert](https://github.com/albertlauncher/albert) extension for quickly and easily searching the Laravel documentation.
+[Albert](https://github.com/albertlauncher/albert) extension for quickly and easily searching the TailwindCSS documentation.
 
 
-![Screenshot](albert-laravel-docs.gif)
+![Screenshot](albert-tailwind-docs.gif)
 
-Inspired by [Laravel Docs Search](https://github.com/tillkruss/alfred-laravel-docs) by Till Krüss.
+Forked from [Laravel Docs Search](https://github.com/rickwest/albert-laravel-docs) by **@rickwest**, inspired by [Laravel Docs Search](https://github.com/tillkruss/alfred-laravel-docs) for Alfred by Till Krüss.
 
 ## Requirements
 
@@ -16,14 +16,16 @@ You will need the `algoliasearch` [Python API Client](https://www.algolia.com/do
 Simply clone this project into your extension directory by running the following command:
 
 ```
-git clone https://github.com/rickwest/albert-laravel-docs.git ~/.local/share/albert/org.albert.extension.python/modules/albert-laravel-docs
+git clone https://github.com/V13Axel/albert-tailwind-docs.git ~/.local/share/albert/org.albert.extension.python/modules/albert-tailwind-docs
 ```
 
 ## Usage
 
-Type `ld` followed by your search query.
+Type `tw` followed by your search query.
 
 ```
-ld <query>
-ld unit testing
+tw <query>
+tw background
+tw flex
+tw place items center
 ```
